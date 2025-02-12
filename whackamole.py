@@ -13,13 +13,4 @@ def main():
         while running:
             for event in pygame.event.get():
                 if event.type == pygame.QUIT:
-                    running = False
-            screen.fill("light green")
-            pygame.display.flip()
-            clock.tick(60)
-    finally:
-        pygame.quit()
-
-
-if __name__ == "__main__":
-    main()
+        
